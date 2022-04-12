@@ -1,0 +1,84 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("zor private", "Sentinel")
+local Tab = Window:NewTab("zor")
+local Section = Tab:NewSection("zor")
+Section:NewToggle("Aimbot", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/0YqDtUbn"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Fps gui", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/BibR7suA"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent aim", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/1uMMnkL1"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent aim v2", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/5B2WG1Vw"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("speed and stuff", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/h5S8VLQh"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent v3", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/DKHqGPdN"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent v4", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/iDZJDJap"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent v5", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/rtVH5f1L"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("Dahood silent menu", "ToggleInfo", function(state)
+    loadstring(game:HttpGet(" https://pastebin.com/raw/KWNZRfvW"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
+Section:NewToggle("HoodShark", "ToggleInfo", function(state)
+    loadstring(game:HttpGet("https://pastebin.com/raw/6W6NDAjZ"))()
+    if state then
+        print("Toggle On")
+    else
+        print("Toggle Off")
+    end
+end)
